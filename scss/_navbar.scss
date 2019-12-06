@@ -2,6 +2,12 @@
 	background: $primary-color;
 	color: $text-rev;
 	text-transform: uppercase;
+	position: fixed;
+	height: 85px;
+	width: 100vw;
+	padding: 0 5vw;
+	z-index: 99;
+	transition: 1s ease-out;
 	.navbar-brand {
 		color: $white;
 	}
