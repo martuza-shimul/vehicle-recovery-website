@@ -17,13 +17,17 @@
 
 .navbar .navbar-nav .nav-item .nav-link {
   color: #f2f2f2;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background: rgba(14, 63, 139, 0.5);
 }
 
 .navbar .navbar-nav .nav-item .nav-link.button {
   background: #be2d0c;
   color: #f2f2f2;
-  padding: 0.9rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   font-weight: 700;
   border: 1px solid #be2d0c;
   border-radius: 0 2rem 2rem 0;
@@ -112,6 +116,64 @@
   border-bottom: 100px solid #f2f2f2;
   -webkit-clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
           clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
+}
+
+.services {
+  background: #f2f2f2;
+  padding: 3% 0;
+}
+
+.services .service-template {
+  background: rgba(187, 206, 223, 0.7);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 4%;
+  border-radius: 7% 7% 0 0;
+  -webkit-box-shadow: 3px 4px 10px 3px #0e3f8b;
+          box-shadow: 3px 4px 10px 3px #0e3f8b;
+}
+
+.services .service-template .st-image {
+  margin: 15px 0;
+}
+
+.services .service-template .st-body {
+  margin: 15px 5px 0 5px;
+}
+
+.services .service-template .st-body .st-header {
+  text-align: center;
+}
+
+.services .service-template .st-body .st-header h4 {
+  color: #be2d0c;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.services .service-template .st-body .st-content {
+  margin-top: 15px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #272d33;
+}
+
+.services .service-template .st-body .st-footer {
+  background: #be2d0c;
+  border-radius: 0 2rem 2rem 0;
+}
+
+.services .service-template .st-body .st-footer a {
+  color: #f2f2f2;
+}
+
+.services .service-template .st-body .st-footer:hover {
+  background: #0e3f8b;
+  -webkit-transition: 0.6s ease-in;
+  transition: 0.6s ease-in;
+  z-index: 3;
 }
 
 * {
