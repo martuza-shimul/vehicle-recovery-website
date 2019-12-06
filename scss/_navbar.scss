@@ -1,13 +1,15 @@
 .navbar {
-	background: $primary-color;
 	color: $text-rev;
 	text-transform: uppercase;
 	position: fixed;
+	// top: 0;
+	// left: 0;
 	height: 85px;
 	width: 100vw;
 	padding: 0 5vw;
 	z-index: 99;
-	transition: 1s ease-out;
+	transition: 0.4s ease-out;
+	// clip-path: polygon(0% 0%, 100% 0%, 100% 20%, 50% 30%, 0% 20%);
 	.navbar-brand {
 		color: $white;
 	}
@@ -30,5 +32,10 @@
 				color: $text-rev;
 			}
 		}
+	}
+
+	&.scrolled {
+		height: 65px;
+		background: $primary-color;
 	}
 }
