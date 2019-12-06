@@ -1,0 +1,28 @@
+.navbar {
+	background: $primary-color;
+	color: $text-rev;
+	text-transform: uppercase;
+	.navbar-brand {
+		color: $white;
+	}
+	.navbar-nav {
+		.nav-item {
+			.nav-link {
+				color: $text-rev;
+				padding: 1rem;
+			}
+			.nav-link.button {
+				background: $text-rev;
+				color: $primary-color;
+				padding: 0.9rem 1.5rem;
+				font-weight: 700;
+				border: 1px solid $text-rev;
+				border-radius: 0 2rem 2rem 0;
+			}
+			.nav-link.button:hover {
+				background: $primary-color;
+				color: $text-rev;
+			}
+		}
+	}
+}
