@@ -1,0 +1,31 @@
+.service-gellary {
+	background: $secondary-color;
+	padding: 3% 0;
+
+	.figure-holder {
+		background: $text-rev;
+		opacity: 0.8;
+		border-radius: 3%;
+		margin-bottom: 10px;
+
+		img {
+			padding: 10px 10px 0 10px;
+		}
+		.f-caption {
+			background: $primary-color;
+			color: $text-rev;
+			text-align: center;
+			text-transform: uppercase;
+			padding: 10px 3px;
+			font-size: 1.4rem;
+			font-weight: 500;
+			// border-radius: 0 0 4% 4%;
+		}
+		&:hover {
+			opacity: 1;
+			transform: scale(1.05, 1.05);
+			border-radius: 10%;
+			transition: all 0.6s ease-in-out;
+		}
+	}
+}
