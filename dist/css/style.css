@@ -120,7 +120,8 @@
 
 .services {
   background: #f2f2f2;
-  padding: 3% 0;
+  padding: 3% 0 5% 0;
+  position: relative;
 }
 
 .services .service-template {
@@ -160,6 +161,10 @@
   color: #272d33;
 }
 
+.services .service-template .st-body .st-content ul {
+  margin-left: 15px;
+}
+
 .services .service-template .st-body .st-footer {
   background: #be2d0c;
   border-radius: 0 2rem 2rem 0;
@@ -174,6 +179,17 @@
   -webkit-transition: 0.6s ease-in;
   transition: 0.6s ease-in;
   z-index: 3;
+}
+
+.services::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 100px solid #0e3f8b;
+  -webkit-clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
+          clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
 }
 
 * {
