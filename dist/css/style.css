@@ -321,6 +321,38 @@
   transition: 0.3s ease-in;
 }
 
+.area-cover {
+  padding: 5vh 0;
+}
+
+.area-cover .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.area-cover .flex-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 150px;
+}
+
+.area-cover .tabs .tab a {
+  color: #0e3f8b;
+  font-size: 1.2rem;
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+
+.area-cover .tabs .indicator {
+  height: 3px;
+  background-color: #0e3f8b;
+}
+
 .sticky-mobile {
   background: #be2d0c;
   color: #f2f2f2;
