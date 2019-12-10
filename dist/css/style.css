@@ -11,6 +11,27 @@
   text-align: center;
 }
 
+.button {
+  background: #be2d0c;
+  color: #f2f2f2;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  border: 1px solid #be2d0c;
+  border-radius: 0 2rem 2rem 0;
+  -webkit-box-shadow: 3px 0px 8px 2px #272d33;
+          box-shadow: 3px 0px 8px 2px #272d33;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background: #0e3f8b;
+  color: #f2f2f2;
+  border: 1px solid #0e3f8b;
+  -webkit-transition: 0.6s ease-in;
+  transition: 0.6s ease-in;
+  z-index: 3;
+}
+
 .navbar {
   color: #f2f2f2;
   text-transform: uppercase;
@@ -81,6 +102,26 @@
   background: linear-gradient(rgba(14, 63, 139, 0.6), rgba(190, 45, 12, 0.5)), url("../img/car-breakdown.jpg") no-repeat bottom center;
   background-size: cover;
   position: relative;
+  padding: 30vh 0 10vh 0;
+  color: #f2f2f2;
+}
+
+.hero .hero-text .heading h1 {
+  color: #f2f2f2;
+}
+
+.hero .hero-text .content h3 {
+  font-weight: 600;
+}
+
+.hero .hero-text .content p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.hero .hero-text .content .button {
+  letter-spacing: 1px;
 }
 
 .hero::after {

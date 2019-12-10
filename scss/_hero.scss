@@ -7,6 +7,29 @@
 		url("../img/car-breakdown.jpg") no-repeat bottom center;
 	background-size: cover;
 	position: relative;
+	padding: 30vh 0 10vh 0;
+	color: $text-rev;
+
+	.hero-text {
+		.heading {
+			h1 {
+				color: $text-rev;
+			}
+		}
+		.content {
+			h3 {
+				font-weight: 600;
+			}
+			p {
+				font-size: 1.4rem;
+				font-weight: 500;
+				text-transform: capitalize;
+			}
+			.button {
+				letter-spacing: 1px;
+			}
+		}
+	}
 
 	// h1 {
 	// 	position: relative;
