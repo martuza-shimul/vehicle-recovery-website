@@ -32,6 +32,19 @@
   z-index: 3;
 }
 
+.hide {
+  display: none;
+}
+
+.red {
+  color: #be2d0c;
+}
+
+.form-group input,
+.form-group textarea {
+  border-color: #be2d0c;
+}
+
 .navbar {
   color: #f2f2f2;
   text-transform: uppercase;
@@ -98,12 +111,12 @@
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 63, 139, 0.6)), to(rgba(190, 45, 12, 0.5))), url("../img/car-breakdown.jpg") no-repeat bottom center;
-  background: linear-gradient(rgba(14, 63, 139, 0.6), rgba(190, 45, 12, 0.5)), url("../img/car-breakdown.jpg") no-repeat bottom center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 63, 139, 0.7)), to(rgba(190, 45, 12, 0.6))), url("../img/car-breakdown.jpg") no-repeat bottom center;
+  background: linear-gradient(rgba(14, 63, 139, 0.7), rgba(190, 45, 12, 0.6)), url("../img/car-breakdown.jpg") no-repeat bottom center;
   background-size: cover;
   position: relative;
   padding: 30vh 0 10vh 0;
-  color: #f2f2f2;
+  color: #272d33;
 }
 
 .hero .hero-text .heading h1 {
@@ -112,12 +125,14 @@
 
 .hero .hero-text .content h3 {
   font-weight: 600;
+  color: #f2f2f2;
 }
 
 .hero .hero-text .content p {
   font-size: 1.4rem;
   font-weight: 500;
   text-transform: capitalize;
+  color: #f2f2f2;
 }
 
 .hero .hero-text .content .button {
@@ -133,6 +148,22 @@
   border-bottom: 100px solid #0e3f8b;
   -webkit-clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
           clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
+}
+
+.quote-engine-wrapper h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px 0 25px 0;
+  text-align: center;
+}
+
+.modal-content {
+  border-radius: 3rem 3rem 0.3rem 0.3rem;
+}
+
+.modal-footer {
+  padding: 0.3rem;
+  background: #0e3f8b;
 }
 
 .about {

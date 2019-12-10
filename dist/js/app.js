@@ -8,3 +8,94 @@ window.addEventListener("scroll", () => {
 		header.classList.remove("scrolled");
 	}
 });
+
+const qepath = document.querySelector(".quote-engine-wrapper .first");
+const qepathSecond = document.querySelector(".quote-engine-wrapper .second");
+const qepathType = document.querySelector(".quote-engine-wrapper .type");
+const qepathThird = document.querySelector(".quote-engine-wrapper .third");
+const qepathFourth = document.querySelector(".quote-engine-wrapper .fourth");
+const qepathLast = document.querySelector(".quote-engine-wrapper .last");
+// let lists = document.querySelectorAll(".first-wrapper .first input");
+// let firstPath = document.querySelectorAll(".quote-engine-wrapper .first input");
+
+const handleRadioClick = () => {
+	// qepath.getElementsByTagName('input')[3].checked
+	let list = qepath.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepath.classList.add("hide");
+			qepathSecond.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepath.innerHTML += `<p class= "text-center red" style="font-weight: bold" >Please select something</p>`;
+	}
+};
+
+const handleSecond = () => {
+	// e.preventDefault();
+	let list = qepathSecond.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepathSecond.classList.add("hide");
+			qepathType.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepathSecond.innerHTML += `<p class= "text-center red" style="font-weight: bold" >Please select something</p>`;
+	}
+};
+
+const handleType = () => {
+	let list = qepathType.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepathType.classList.add("hide");
+			qepathThird.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepathType.innerHTML += `<p class= "text-center red" style="font-weight: bold;" >Please select something</p>`;
+	}
+};
+
+const handleThird = () => {
+	let list = qepathThird.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepathThird.classList.add("hide");
+			qepathFourth.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepathThird.innerHTML += `<p class= "text-center red" style="font-weight: bold;" >Please select something</p>`;
+	}
+};
+
+const handleFourth = () => {
+	let list = qepathFourth.getElementsByTagName("input");
+	let counter = 0;
+	for (let i = 0; i < list.length; i++) {
+		// const decision = list[i].checked;
+		if (list[i].checked) {
+			qepathFourth.classList.add("hide");
+			qepathLast.classList.remove("hide");
+			counter++;
+		}
+	}
+	if (counter == 0) {
+		qepathFourth.innerHTML += `<p class= "text-center red" style="font-weight: bold" >Please select something</p>`;
+	}
+};

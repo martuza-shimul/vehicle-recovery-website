@@ -26,3 +26,17 @@
 		z-index: 3;
 	}
 }
+.hide {
+	display: none;
+	// transition: display 0.4s ease-out;
+}
+.red {
+	color: $primary-color;
+}
+
+.form-group {
+	input,
+	textarea {
+		border-color: $primary-color;
+	}
+}
