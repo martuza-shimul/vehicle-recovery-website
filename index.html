@@ -273,6 +273,7 @@
 																	class="form-control"
 																	placeholder="Name: "
 																	name="first-name"
+																	required
 																/>
 															</div>
 														</div>
@@ -285,6 +286,7 @@
 																	placeholder="Email: "
 																	aria-describedby="emailHelp"
 																	name="email"
+																	required
 																/>
 															</div>
 														</div>
@@ -295,6 +297,7 @@
 																	class="form-control"
 																	placeholder="Phone: "
 																	name="phone"
+																	required
 																/>
 															</div>
 														</div>
@@ -314,6 +317,7 @@
 																	class="form-control"
 																	placeholder="Vehicle Pick-up Postcode"
 																	name="pick_post"
+																	required
 																/>
 															</div>
 														</div>
@@ -324,12 +328,13 @@
 																	class="form-control"
 																	placeholder="Vehicle Drop off Postcode"
 																	name="drop_post"
+																	required
 																/>
 															</div>
 														</div>
 														<div class="col-md-12">
 																<div class="form-group">
-																		<textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Description of your Problem" rows="3"></textarea>
+																		<textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Description of your Problem" rows="3" required></textarea>
 																	</div>
 														</div>
 														
@@ -611,7 +616,7 @@
 					<div class="row">
 						<div class="col-md-7">
 							<div class="contact-form">
-								<form>
+								<form action="./dist/php/contact.php" method="POST">
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
@@ -619,6 +624,8 @@
 													type="text"
 													class="form-control"
 													placeholder="Name: "
+													name="first-name"
+													required
 												/>
 											</div>
 										</div>
@@ -630,6 +637,8 @@
 													id="exampleInputEmail1"
 													placeholder="Email: "
 													aria-describedby="emailHelp"
+													name="email"
+													required
 												/>
 											</div>
 										</div>
@@ -639,6 +648,8 @@
 													type="text"
 													class="form-control"
 													placeholder="Phone: "
+													name="phone"
+													required
 												/>
 											</div>
 										</div>
@@ -648,6 +659,8 @@
 													type="text"
 													class="form-control"
 													placeholder="Service Type: "
+													name="service_type"
+													required
 												/>
 											</div>
 										</div>
@@ -657,6 +670,8 @@
 													type="text"
 													class="form-control"
 													placeholder="Vehicle Pick-up Postcode"
+													name="pick_post"
+													required
 												/>
 											</div>
 										</div>
@@ -666,12 +681,14 @@
 													type="text"
 													class="form-control"
 													placeholder="Vehicle Drop off Postcode"
+													name="drop_post"
+													required
 												/>
 											</div>
 										</div>
 										<div class="col-md-12">
 												<div class="form-group">
-														<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Description of your Problem" rows="3"></textarea>
+														<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Description of your Problem" rows="3" name="message" required></textarea>
 													</div>
 										</div>
 										
