@@ -2,9 +2,11 @@
 	background: $text-rev;
 	padding: 3% 0 5% 0;
 	position: relative;
+	margin: -1px 0;
 	.service-template {
 		background: rgba($card-back, 0.7);
 		box-sizing: border-box;
+		margin: 3% 0;
 		padding: 4%;
 		border-radius: 7% 7% 0 0;
 		box-shadow: 3px 4px 10px 3px $secondary-color;
