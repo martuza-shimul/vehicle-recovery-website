@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 .heading {
-  padding: 20px 0;
+  padding: 0 0 30px 0;
 }
 
 .heading h1 {
   font-size: 3rem;
   font-weight: 900;
   color: #be2d0c;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .navbar {
@@ -211,7 +213,7 @@
 
 .service-gellary {
   background: #0e3f8b;
-  padding: 3% 0 5% 0;
+  padding: 3% 0 6% 0;
   position: relative;
 }
 
@@ -251,9 +253,67 @@
   top: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 100px solid #f2f2f2;
+  border-bottom: 80px solid #f2f2f2;
   -webkit-clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
           clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
+}
+
+.contact {
+  background: #f2f2f2;
+  padding-bottom: 25px;
+}
+
+.contact .contact-box {
+  padding: 10px 0;
+}
+
+.contact .contact-box h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 5px 0 30px 0;
+  color: #272d33;
+}
+
+.contact .contact-box p img {
+  margin-right: 10px;
+}
+
+.contact .contact-box p span {
+  font-size: 1.1rem;
+  color: #0e3f8b;
+  font-weight: 500;
+}
+
+.contact .contact-box p span a {
+  text-decoration: none;
+  color: #0e3f8b;
+}
+
+.contact .contact-form {
+  padding: 10px 0;
+}
+
+.contact .contact-form .form-group input,
+.contact .contact-form .form-group textarea {
+  border-color: #be2d0c;
+}
+
+.contact .contact-form .button {
+  background: #be2d0c;
+  color: #f2f2f2;
+  padding: 10px 30px;
+  border-radius: 0 2rem 2rem 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contact .contact-form .button:hover {
+  background: #0e3f8b;
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 * {
