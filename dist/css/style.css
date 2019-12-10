@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.heading {
+  padding: 20px 0;
+}
+
+.heading h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #be2d0c;
+}
+
 .navbar {
   color: #f2f2f2;
   text-transform: uppercase;
@@ -181,6 +191,13 @@
   z-index: 3;
 }
 
+.services .service-template:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+}
+
 .services::after {
   content: "";
   position: absolute;
@@ -194,7 +211,8 @@
 
 .service-gellary {
   background: #0e3f8b;
-  padding: 3% 0;
+  padding: 3% 0 5% 0;
+  position: relative;
 }
 
 .service-gellary .figure-holder {
@@ -225,6 +243,17 @@
   border-radius: 10%;
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
+}
+
+.service-gellary::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 100px solid #f2f2f2;
+  -webkit-clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
+          clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
 }
 
 * {

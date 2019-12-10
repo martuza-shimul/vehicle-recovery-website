@@ -49,6 +49,10 @@
 				}
 			}
 		}
+		&:hover {
+			transform: scale(1.05, 1.05);
+			transition: 0.4s ease-in;
+		}
 	}
 	&::after {
 		content: "";
