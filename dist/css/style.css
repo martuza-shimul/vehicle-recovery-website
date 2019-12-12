@@ -189,7 +189,11 @@
 .about .about-content h3 {
   font-size: 2.5rem;
   font-weight: 900;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+}
+
+.about .about-content p {
+  font-size: 0.9rem;
 }
 
 .about::after {
@@ -205,7 +209,7 @@
 
 .services {
   background: #f2f2f2;
-  padding: 3% 0 5% 0;
+  padding: 3% 0 9% 0;
   position: relative;
   margin: -1px 0;
 }
@@ -235,7 +239,7 @@
 
 .services .service-template .st-body .st-header h4 {
   color: #be2d0c;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 900;
   text-transform: uppercase;
   margin: 20px 0;
@@ -324,12 +328,13 @@
 }
 
 .service-gellary::after {
+  margin-top: 1px;
   content: "";
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 80px solid #f2f2f2;
+  border-bottom: 70px solid #f2f2f2;
   -webkit-clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
           clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
 }
@@ -479,6 +484,127 @@
 @media screen and (max-width: 991px) {
   .navbar-nav {
     background: #0e3f8b;
+  }
+  .about .image-holder {
+    margin: 5% 1%;
+  }
+  .about .about-content {
+    padding: 0 0 0 0;
+  }
+  .about .about-content h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 3%;
+  }
+  .services {
+    padding: 3% 0 10% 0;
+  }
+  .services .service-template {
+    margin: 30px 0;
+    border-radius: 0;
+  }
+  .services .service-template .st-body .st-header h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .services .service-template .st-body .st-content {
+    margin-top: 15px;
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+  .service-gellary .figure-holder .f-caption {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about .image-holder {
+    margin: 25% 0 0 0;
+  }
+  .about .about-content {
+    padding: 0 0 0 0;
+  }
+  .about .about-content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 5%;
+  }
+  #areas {
+    margin-bottom: 60px;
+  }
+  .services .service-template {
+    margin: 30px 0;
+  }
+  .services .service-template .st-body .st-header h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .services .service-template .st-body .st-content {
+    margin-top: 15px;
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+  .services::after {
+    border-bottom: 40px solid #0e3f8b;
+    -webkit-clip-path: polygon(0% 100%, 0% 98%, 50% 100%, 100% 98%, 100% 100%);
+            clip-path: polygon(0% 100%, 0% 98%, 50% 100%, 100% 98%, 100% 100%);
+  }
+  .service-gellary {
+    padding: 6% 0 8% 0;
+  }
+  .service-gellary .figure-holder .f-caption {
+    font-size: 1.1rem;
+  }
+  .service-gellary::after {
+    border-bottom: 50px solid #f2f2f2;
+    -webkit-clip-path: polygon(0% 100%, 50% 97%, 100% 100%);
+            clip-path: polygon(0% 100%, 50% 97%, 100% 100%);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .heading h1 {
+    font-size: 1.7rem;
+    font-weight: 900;
+  }
+  .hero .hero-text .content h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .hero .hero-text .content p {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .about .image-holder {
+    margin: 5% 2%;
+  }
+  .about .about-content {
+    padding: 5% 0 0 0;
+  }
+  .about .about-content h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 5%;
+  }
+  .tab-content {
+    padding: 0 4%;
+  }
+  .services::after {
+    border-bottom: 40px solid #0e3f8b;
+    -webkit-clip-path: polygon(0% 100%, 0% 98%, 50% 100%, 100% 98%, 100% 100%);
+            clip-path: polygon(0% 100%, 0% 98%, 50% 100%, 100% 98%, 100% 100%);
+  }
+  .service-gellary {
+    padding: 6% 0 14% 0;
+  }
+  .service-gellary::after {
+    margin-top: 1px;
+    border-bottom: 40px solid #f2f2f2;
+    -webkit-clip-path: polygon(0% 100%, 50% 99%, 100% 100%);
+            clip-path: polygon(0% 100%, 50% 99%, 100% 100%);
+  }
+  .contact {
+    padding-top: 30px;
   }
 }
 
