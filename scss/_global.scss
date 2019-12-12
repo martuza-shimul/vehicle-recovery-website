@@ -40,3 +40,15 @@
 		border-color: $primary-color;
 	}
 }
+
+.equal {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+.equal > [class*="col-"] {
+	display: flex;
+	flex-direction: column;
+}

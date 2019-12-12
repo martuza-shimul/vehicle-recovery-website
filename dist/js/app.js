@@ -9,6 +9,8 @@ window.addEventListener("scroll", () => {
 	}
 });
 
+$("body").scrollspy({ target: "#menu" });
+
 const qepath = document.querySelector(".quote-engine-wrapper .first");
 const qepathSecond = document.querySelector(".quote-engine-wrapper .second");
 const qepathType = document.querySelector(".quote-engine-wrapper .type");
