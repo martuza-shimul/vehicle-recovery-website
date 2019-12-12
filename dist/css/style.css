@@ -192,8 +192,8 @@
 .page-header {
   height: 40vh;
   padding: 20vh 0 10vh 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 45, 51, 0.6)), to(rgba(39, 45, 51, 0.6))), url("../img/car-breakdown.jpg") no-repeat bottom center;
-  background: linear-gradient(rgba(39, 45, 51, 0.6), rgba(39, 45, 51, 0.6)), url("../img/car-breakdown.jpg") no-repeat bottom center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 45, 51, 0.6)), to(rgba(39, 45, 51, 0.6))), url("../img/page-header.jpg") no-repeat;
+  background: linear-gradient(rgba(39, 45, 51, 0.6), rgba(39, 45, 51, 0.6)), url("../img/page-header.jpg") no-repeat;
   background-size: cover;
 }
 
