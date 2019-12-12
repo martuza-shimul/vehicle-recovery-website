@@ -77,7 +77,8 @@ const handleThird = () => {
 		// const decision = list[i].checked;
 		if (list[i].checked) {
 			qepathThird.classList.add("hide");
-			qepathFourth.classList.remove("hide");
+			// qepathFourth.classList.remove("hide");
+			qepathLast.classList.remove("hide");
 			counter++;
 		}
 	}
