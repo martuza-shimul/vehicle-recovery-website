@@ -63,6 +63,21 @@
           flex-direction: column;
 }
 
+.bold {
+  font-weight: 900;
+}
+
+.seo {
+  width: 98%;
+  margin: 0 auto;
+  color: #f2f2f2;
+}
+
+.seo h4 {
+  font-weight: 300;
+  font-size: 0.5rem;
+}
+
 .navbar {
   color: #f2f2f2;
   text-transform: uppercase;
@@ -174,6 +189,24 @@
           clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
 }
 
+.page-header {
+  height: 40vh;
+  padding: 20vh 0 10vh 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 45, 51, 0.6)), to(rgba(39, 45, 51, 0.6))), url("../img/car-breakdown.jpg") no-repeat bottom center;
+  background: linear-gradient(rgba(39, 45, 51, 0.6), rgba(39, 45, 51, 0.6)), url("../img/car-breakdown.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
+.page-header .ph-text .ph-title {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  color: #f2f2f2;
+}
+
+.page-header .ph-text .ph-title h1 {
+  font-weight: 900;
+}
+
 .quote-engine-wrapper h5 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -207,7 +240,7 @@
 }
 
 .about .about-content {
-  padding: 10% 0 0 0;
+  padding: 2% 0 0 0;
 }
 
 .about .about-content h3 {
@@ -217,7 +250,7 @@
 }
 
 .about .about-content p {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .about::after {
@@ -229,6 +262,20 @@
   border-bottom: 100px solid #f2f2f2;
   -webkit-clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
           clip-path: polygon(0% 100%, 50% 93%, 100% 100%);
+}
+
+.rates .about-content {
+  padding: 3% 0 0 0;
+}
+
+.rates .about-content h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 2%;
+}
+
+.rates .about-content p {
+  font-size: 1.1rem;
 }
 
 .services {
@@ -272,6 +319,17 @@
   margin: 20px 0;
 }
 
+.services .service-template .st-body .st-price p span {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.services .service-template .st-body .st-price p .amount {
+  font-weight: 900;
+  font-size: 5.3rem;
+  color: #0e3f8b;
+}
+
 .services .service-template .st-body .st-content {
   margin-top: 15px;
   font-size: 0.92rem;
@@ -308,6 +366,7 @@
 
 .services::after {
   content: "";
+  margin: 1px 0;
   position: absolute;
   top: 0;
   width: 100%;
@@ -497,11 +556,12 @@
 }
 
 .footer {
-  background: #be2d0c;
+  background: #0e3f8b;
   color: #f2f2f2;
   font-size: 0.8rem;
   font-weight: 500;
   padding: 15px 0;
+  margin: -1px 0;
 }
 
 .footer p {

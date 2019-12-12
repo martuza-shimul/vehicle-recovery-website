@@ -52,3 +52,17 @@
 	display: flex;
 	flex-direction: column;
 }
+
+.bold {
+	font-weight: 900;
+}
+
+.seo {
+	width: 98%;
+	margin: 0 auto;
+	color: $text-rev;
+	h4 {
+		font-weight: 300;
+		font-size: 0.5rem;
+	}
+}

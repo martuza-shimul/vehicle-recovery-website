@@ -44,7 +44,7 @@ $message = $_POST['message'];
 $to = 'tripkeys@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Website Quote Engine:  $first_name";
 $email_body = "You have received a new message from your Vehicle Recovery website Quote Engine .\n\n"."Here are the details:\n\nName: $first_name\n\nPhone: $phone\n\nEmail: $email_address\n\n Pick up Postcode: $pick_postcode \n\n Drop off Postcode: $drop_postcode \n\n\n Here is the Quote Request: \n Type of Work: $first\n Vehicle Type: $type \n Area: $area \n Timeline: $third \n Materials: $fourth ";
-$headers = "From: noreply@london-vr.co.uk\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "From: noreply@easy-car-recovery.co.uk\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
