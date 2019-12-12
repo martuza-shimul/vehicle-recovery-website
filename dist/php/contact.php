@@ -3,9 +3,9 @@
 if(empty($_POST['first-name'])  		||
    empty($_POST['email'])	||
    empty($_POST['phone']) 		||
-   empty($_POST['service_type']) 		||
-   empty($_POST['pick_post'])	||
-   empty($_POST['drop_post']) 		||
+   empty($_POST['service-type']) 		||
+   empty($_POST['pick-post'])	||
+   empty($_POST['drop-post']) 		||
    empty($_POST['message']) 		||
    
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
@@ -20,9 +20,9 @@ if(empty($_POST['first-name'])  		||
 $name= $_POST['first-name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-$service_type = $_POST['service_type']
-$pick_postcode = $_POST['pick_post'];
-$drop_postcode = $_POST['drop_post'];
+$service_type = $_POST['service-type'];
+$pick_postcode = $_POST['pick-post'];
+$drop_postcode = $_POST['drop-post'];
 $message = $_POST['message'];
 
 	
