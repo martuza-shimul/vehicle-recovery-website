@@ -129,12 +129,18 @@
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(190, 45, 12, 0.6)), to(rgba(14, 63, 139, 0.6))), url("../img/hero-image-new.jpg") no-repeat bottom center;
-  background: linear-gradient(rgba(190, 45, 12, 0.6), rgba(14, 63, 139, 0.6)), url("../img/hero-image-new.jpg") no-repeat bottom center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 63, 139, 0.4)), to(rgba(190, 45, 12, 0.4))), url("../img/hero-image-new.jpg") no-repeat bottom center;
+  background: linear-gradient(rgba(14, 63, 139, 0.4), rgba(190, 45, 12, 0.4)), url("../img/hero-image-new.jpg") no-repeat bottom center;
   background-size: cover;
   position: relative;
   padding: 30vh 0 10vh 0;
   color: #272d33;
+}
+
+.hero .hero-text {
+  background: rgba(39, 45, 51, 0.3);
+  padding: 5vh 0;
+  border-radius: 0 10rem 10rem 0;
 }
 
 .hero .hero-text .heading h1 {

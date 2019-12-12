@@ -1,8 +1,8 @@
 .hero {
 	height: 100vh;
 	background: linear-gradient(
-			rgba($primary-color, 0.6),
-			rgba($secondary-color, 0.6)
+			rgba($secondary-color, 0.4),
+			rgba($primary-color, 0.4)
 		),
 		url("../img/hero-image-new.jpg") no-repeat bottom center;
 	background-size: cover;
@@ -11,6 +11,12 @@
 	color: $text-color;
 
 	.hero-text {
+		background: rgba($text-color, 0.3);
+		padding: 5vh 0;
+		border-radius: 0 10rem 10rem 0;
+		// display: inline-block;
+		// text-align: center;
+		// margin: 0 auto;
 		.heading {
 			h1 {
 				color: $text-rev;
