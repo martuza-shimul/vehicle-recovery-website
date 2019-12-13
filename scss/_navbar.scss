@@ -16,8 +16,9 @@
 	.navbar-nav {
 		.nav-item {
 			.nav-link {
-				color: $text-rev;
+				color: $secondary-color;
 				padding: 0.5rem 1rem;
+				font-weight: 700;
 
 				&:hover {
 					background: rgba($secondary-color, 0.5);
@@ -43,19 +44,19 @@
 
 	&.scrolled {
 		height: 65px;
-		background: $primary-color;
+		background: $text-rev;
 
-		#button {
-			background: $text-rev;
-			border: 1px solid $text-rev;
-			color: $primary-color;
-			&:hover {
-				background: $secondary-color;
-				border: 1px solid $secondary-color;
-				transition: 0.6s ease-in;
-				z-index: 3;
-				color: $text-rev;
-			}
-		}
+		// #button {
+		// 	background: $text-rev;
+		// 	border: 1px solid $text-rev;
+		// 	color: $primary-color;
+		// 	&:hover {
+		// 		background: $secondary-color;
+		// 		border: 1px solid $secondary-color;
+		// 		transition: 0.6s ease-in;
+		// 		z-index: 3;
+		// 		color: $text-rev;
+		// 	}
+		// }
 	}
 }

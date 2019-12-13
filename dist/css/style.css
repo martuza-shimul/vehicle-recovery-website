@@ -6,17 +6,17 @@
 .heading h1 {
   font-size: 3rem;
   font-weight: 900;
-  color: #be2d0c;
+  color: #d81a21;
   text-transform: uppercase;
   text-align: center;
 }
 
 .button {
-  background: #be2d0c;
+  background: #d81a21;
   color: #f2f2f2;
   padding: 0.5rem 1.5rem;
   font-weight: 600;
-  border: 1px solid #be2d0c;
+  border: 1px solid #d81a21;
   border-radius: 0 2rem 2rem 0;
   -webkit-box-shadow: 3px 0px 8px 2px #272d33;
           box-shadow: 3px 0px 8px 2px #272d33;
@@ -24,9 +24,9 @@
 }
 
 .button:hover {
-  background: #0e3f8b;
+  background: #025184;
   color: #f2f2f2;
-  border: 1px solid #0e3f8b;
+  border: 1px solid #025184;
   -webkit-transition: 0.6s ease-in;
   transition: 0.6s ease-in;
   z-index: 3;
@@ -37,12 +37,12 @@
 }
 
 .red {
-  color: #be2d0c;
+  color: #d81a21;
 }
 
 .form-group input,
 .form-group textarea {
-  border-color: #be2d0c;
+  border-color: #d81a21;
 }
 
 .equal {
@@ -95,28 +95,29 @@
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #f2f2f2;
+  color: #025184;
   padding: 0.5rem 1rem;
+  font-weight: 700;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  background: rgba(14, 63, 139, 0.5);
+  background: rgba(2, 81, 132, 0.5);
 }
 
 .navbar .navbar-nav .nav-item .nav-link.button {
-  background: #be2d0c;
+  background: #d81a21;
   color: #f2f2f2;
   padding: 0.5rem 1.5rem;
   font-weight: 700;
-  border: 1px solid #be2d0c;
+  border: 1px solid #d81a21;
   border-radius: 0 2rem 2rem 0;
   -webkit-box-shadow: 3px 0px 8px 2px #272d33;
           box-shadow: 3px 0px 8px 2px #272d33;
 }
 
 .navbar .navbar-nav .nav-item .nav-link.button:hover {
-  background: #0e3f8b;
-  border: 1px solid #0e3f8b;
+  background: #025184;
+  border: 1px solid #025184;
   -webkit-transition: 0.6s ease-in;
   transition: 0.6s ease-in;
   z-index: 3;
@@ -124,28 +125,13 @@
 
 .navbar.scrolled {
   height: 65px;
-  background: #be2d0c;
-}
-
-.navbar.scrolled #button {
   background: #f2f2f2;
-  border: 1px solid #f2f2f2;
-  color: #be2d0c;
-}
-
-.navbar.scrolled #button:hover {
-  background: #0e3f8b;
-  border: 1px solid #0e3f8b;
-  -webkit-transition: 0.6s ease-in;
-  transition: 0.6s ease-in;
-  z-index: 3;
-  color: #f2f2f2;
 }
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(14, 63, 139, 0.4)), to(rgba(190, 45, 12, 0.4))), url("../img/hero-image-new.jpg") no-repeat bottom center;
-  background: linear-gradient(rgba(14, 63, 139, 0.4), rgba(190, 45, 12, 0.4)), url("../img/hero-image-new.jpg") no-repeat bottom center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 81, 132, 0.2)), to(rgba(216, 26, 33, 0.4))), url("../img/hero.jpg") no-repeat bottom center;
+  background: linear-gradient(rgba(2, 81, 132, 0.2), rgba(216, 26, 33, 0.4)), url("../img/hero.jpg") no-repeat bottom center;
   background-size: cover;
   position: relative;
   padding: 30vh 0 10vh 0;
@@ -153,7 +139,7 @@
 }
 
 .hero .hero-text {
-  background: rgba(14, 63, 139, 0.3);
+  background: rgba(2, 81, 132, 0.3);
   padding: 5vh 0;
   border-radius: 0 10rem 10rem 0;
 }
@@ -184,7 +170,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 100px solid #0e3f8b;
+  border-bottom: 100px solid #025184;
   -webkit-clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
           clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
 }
@@ -192,8 +178,8 @@
 .page-header {
   height: 40vh;
   padding: 15vh 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 45, 51, 0.6)), to(rgba(190, 45, 12, 0.6))), url("../img/page-header-new.jpg") no-repeat bottom;
-  background: linear-gradient(rgba(39, 45, 51, 0.6), rgba(190, 45, 12, 0.6)), url("../img/page-header-new.jpg") no-repeat bottom;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 45, 51, 0.6)), to(rgba(216, 26, 33, 0.6))), url("../img/page-header-new.jpg") no-repeat bottom;
+  background: linear-gradient(rgba(39, 45, 51, 0.6), rgba(216, 26, 33, 0.6)), url("../img/page-header-new.jpg") no-repeat bottom;
   background-size: cover;
 }
 
@@ -220,11 +206,11 @@
 
 .modal-footer {
   padding: 0.3rem;
-  background: #0e3f8b;
+  background: #025184;
 }
 
 .about {
-  background: #0e3f8b;
+  background: #025184;
   color: #f2f2f2;
   overflow: hidden;
   padding: 30px 0 50px 0;
@@ -294,8 +280,8 @@
   margin: 3% 0;
   padding: 4%;
   border-radius: 7% 7% 0 0;
-  -webkit-box-shadow: 3px 4px 10px 3px #0e3f8b;
-          box-shadow: 3px 4px 10px 3px #0e3f8b;
+  -webkit-box-shadow: 3px 4px 10px 3px #025184;
+          box-shadow: 3px 4px 10px 3px #025184;
   height: 100%;
 }
 
@@ -312,7 +298,7 @@
 }
 
 .services .service-template .st-body .st-header h4 {
-  color: #be2d0c;
+  color: #d81a21;
   font-size: 1.6rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -327,7 +313,7 @@
 .services .service-template .st-body .st-price p .amount {
   font-weight: 900;
   font-size: 5.3rem;
-  color: #0e3f8b;
+  color: #025184;
 }
 
 .services .service-template .st-body .st-content {
@@ -342,7 +328,7 @@
 }
 
 .services .service-template .st-body .st-footer {
-  background: #be2d0c;
+  background: #d81a21;
   border-radius: 0 2rem 2rem 0;
 }
 
@@ -351,7 +337,7 @@
 }
 
 .services .service-template .st-body .st-footer:hover {
-  background: #0e3f8b;
+  background: #025184;
   -webkit-transition: 0.6s ease-in;
   transition: 0.6s ease-in;
   z-index: 3;
@@ -371,13 +357,13 @@
   top: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 100px solid #0e3f8b;
+  border-bottom: 100px solid #025184;
   -webkit-clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
           clip-path: polygon(0% 100%, 0% 93%, 50% 100%, 100% 93%, 100% 100%);
 }
 
 .service-gellary {
-  background: #0e3f8b;
+  background: #025184;
   padding: 3% 0 6% 0;
   position: relative;
   margin: -2px 0;
@@ -395,7 +381,7 @@
 }
 
 .service-gellary .figure-holder .f-caption {
-  background: #be2d0c;
+  background: #d81a21;
   color: #f2f2f2;
   text-align: center;
   text-transform: uppercase;
@@ -448,13 +434,13 @@
 
 .contact .contact-box p span {
   font-size: 1.1rem;
-  color: #0e3f8b;
+  color: #025184;
   font-weight: 500;
 }
 
 .contact .contact-box p span a {
   text-decoration: none;
-  color: #0e3f8b;
+  color: #025184;
 }
 
 .contact .contact-form {
@@ -463,11 +449,11 @@
 
 .contact .contact-form .form-group input,
 .contact .contact-form .form-group textarea {
-  border-color: #be2d0c;
+  border-color: #d81a21;
 }
 
 .contact .contact-form .button {
-  background: #be2d0c;
+  background: #d81a21;
   color: #f2f2f2;
   padding: 10px 30px;
   border-radius: 0 2rem 2rem 0;
@@ -477,7 +463,7 @@
 }
 
 .contact .contact-form .button:hover {
-  background: #0e3f8b;
+  background: #025184;
   -webkit-transform: scale(1.03, 1.03);
           transform: scale(1.03, 1.03);
   -webkit-transition: 0.3s ease-in;
@@ -505,7 +491,7 @@
 }
 
 .area-cover .tabs .tab a {
-  color: #0e3f8b;
+  color: #025184;
   font-size: 1rem;
   margin-top: -10px;
   text-transform: capitalize;
@@ -513,11 +499,11 @@
 
 .area-cover .tabs .indicator {
   height: 3px;
-  background-color: #0e3f8b;
+  background-color: #025184;
 }
 
 .sticky-mobile {
-  background: #be2d0c;
+  background: #d81a21;
   color: #f2f2f2;
   width: 100vw;
   max-height: 53px;
@@ -556,7 +542,7 @@
 }
 
 .footer {
-  background: #0e3f8b;
+  background: #025184;
   color: #f2f2f2;
   font-size: 0.8rem;
   font-weight: 500;
@@ -570,7 +556,7 @@
 
 @media screen and (max-width: 991px) {
   .navbar-nav {
-    background: #0e3f8b;
+    background: #025184;
   }
   .about .image-holder {
     margin: 5% 1%;
@@ -632,7 +618,7 @@
     font-weight: 600;
   }
   .services::after {
-    border-bottom: 40px solid #0e3f8b;
+    border-bottom: 40px solid #025184;
     -webkit-clip-path: polygon(0% 100%, 0% 98%, 50% 100%, 100% 98%, 100% 100%);
             clip-path: polygon(0% 100%, 0% 98%, 50% 100%, 100% 98%, 100% 100%);
   }
@@ -677,7 +663,7 @@
     padding: 0 4%;
   }
   .services::after {
-    border-bottom: 40px solid #0e3f8b;
+    border-bottom: 40px solid #025184;
     -webkit-clip-path: polygon(0% 100%, 0% 98%, 50% 100%, 100% 98%, 100% 100%);
             clip-path: polygon(0% 100%, 0% 98%, 50% 100%, 100% 98%, 100% 100%);
   }
