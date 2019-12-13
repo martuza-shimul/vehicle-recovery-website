@@ -9,7 +9,26 @@ window.addEventListener("scroll", () => {
 	}
 });
 
-$("body").scrollspy({ target: "#menu" });
+$("body").scrollspy({ target: ".navbar" });
+
+$(document).ready(function() {
+	$('[data-spy="scroll"]').each(function() {
+		var $spy = $(this).scrollspy("refresh");
+	});
+});
+
+// mobile menu hide after click
+const menuPath = document.querySelector(".navbar-collapse ");
+const navPath = document.querySelector(".nav-link ");
+let allNavLink = document.querySelectorAll(".nav-link ");
+
+for (let i = 0; i < 4; i++) {
+	allNavLink[i].addEventListener("click", () => {
+		menuPath.classList.remove("show");
+	});
+}
+
+//Quote engine code
 
 const qepath = document.querySelector(".quote-engine-wrapper .first");
 const qepathSecond = document.querySelector(".quote-engine-wrapper .second");

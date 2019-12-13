@@ -19,6 +19,15 @@
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	position: relative;
+	// height: 100%;
+	// overflow-y: scroll;
+}
+
+.active {
+	background: rgba($white, 0.9);
 }

@@ -689,7 +689,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
+}
+
+.active {
+  background: rgba(255, 255, 255, 0.9);
 }
 /*# sourceMappingURL=style.css.map */
