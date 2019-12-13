@@ -95,7 +95,7 @@
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #025184;
+  color: #272d33;
   padding: 0.5rem 1rem;
   font-weight: 700;
 }
@@ -556,7 +556,7 @@
 
 @media screen and (max-width: 991px) {
   .navbar-nav {
-    background: #025184;
+    background: #f2f2f2;
   }
   .about .image-holder {
     margin: 5% 1%;
