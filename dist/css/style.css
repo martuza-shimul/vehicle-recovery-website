@@ -78,6 +78,10 @@
   font-size: 0.5rem;
 }
 
+.map {
+  padding-bottom: 10vh;
+}
+
 .navbar {
   color: #f2f2f2;
   text-transform: uppercase;
