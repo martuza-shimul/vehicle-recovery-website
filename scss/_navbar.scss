@@ -44,7 +44,7 @@
 
 	&.scrolled {
 		height: 65px;
-		background: $text-rev;
+		background: rgba($text-rev, 0.9);
 
 		// #button {
 		// 	background: $text-rev;
