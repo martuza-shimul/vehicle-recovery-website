@@ -8,11 +8,13 @@
 		// background: $secon-color;
 		.ph-title {
 			text-transform: capitalize;
-
+			background: rgba($secondary-color, 0.2);
+			padding: 5vh 0;
+			border-radius: 0 5rem 5rem 0;
 			color: $text-rev;
 			h1 {
 				font-weight: 900;
-				font-size: 1.7rem;
+				font-size: 2.3rem;
 			}
 		}
 	}
