@@ -1,4 +1,9 @@
 @media screen and (max-width: 991px) {
+	.heading {
+		h1 {
+			font-size: 2.4rem;
+		}
+	}
 	.navbar-nav {
 		background: $text-rev;
 	}
@@ -56,6 +61,12 @@
 	}
 }
 @media screen and (max-width: 767px) {
+	.heading {
+		h1 {
+			font-size: 2rem;
+			font-weight: 900;
+		}
+	}
 	.about {
 		.image-holder {
 			margin: 25% 0 0 0;
@@ -122,6 +133,11 @@
 	}
 	.hero {
 		.hero-text {
+			.heading {
+				h1 {
+					font-size: 1.4rem;
+				}
+			}
 			.content {
 				h3 {
 					font-size: 1.3rem;
