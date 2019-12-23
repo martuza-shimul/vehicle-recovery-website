@@ -33,7 +33,7 @@ $email_subject = "Website Quote Engine:  $name";
 $email_body = "You have received a new message from your Vehicle Recovery website Quote Engine .\n\n"."Here are the details:\n\nName: $name\n\nPhone: $phone\n\nEmail: $email\n\n Service Type: $service_type\n\n Pick up Postcode: $pick_postcode \n\n Drop off Postcode: $drop_postcode \n\n\n Message: $message ";
 $headers = "From: noreply@easy-car-recovery.co.uk\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 
-$headers .= "Reply-To: $email_address";	
+$headers .= "Reply-To: $email";	
 mail($to,$email_subject,$email_body,$headers);
 
 // echo "<h4>The details have been sent and a member of staff will be in touch shortly!</h4>";
